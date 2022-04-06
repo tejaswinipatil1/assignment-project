@@ -6,10 +6,10 @@ public class Test {
 {
 	    public static void main(String args[])
 	    {
-	        String Str = new String("Geeks-for-Geeks");
+	        String Str = new String(23  +      45   -(   343   /   12  ));
 	 
 	        // Split above string in at-most two strings 
-	        for (String val: Str.split("-", 2))
+	        for (String val: Str.split("-", 1,"+",1,"/",1, "(",1 , ")",1)
 	            System.out.println(val);
 	 
 	        System.out.println("");
